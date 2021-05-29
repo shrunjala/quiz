@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Who knows Shrunjala the best?</title>
+        <link rel="stylesheet" href="style.css">
+        <!-- Pick which font you like later lol-->
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+            <script src="main.js"></script>
+    </head>
+    <body>
+        <h1>WHO KNOWS ME BEST?</h1>
+        <h3>DISCLAIMER</h3>
+        <p>The only reason I'm making this is to learn JavaScript before I start some frameworks like React. Pls don't think I'm that self-obsessed to make a whole website about myself. (ok. maybe a little.)</p>
+        <form id="quiz" name="quiz">
+            <!-- <p>What's your name?</p>
+            <input type="text" id="textbox" name="question1"> -->
+        
+            <p>1. What is my favourite game right now?</p>
+            <input type="radio" id="mc" name="question2" value="Google Feud">Google Feud <br/>
+            <input type="radio" id="mc" name="question2" value="Chess">Chess <br/>
+            <input type="radio" id="mc" name="question2" value="Geoguessr">Geoguessr <br/>
+            <input type="radio" id="mc" name="question2" value="Sudoku">Sudoku <br/>
+
+            <p>2. What does my name mean?</p>
+            <input type="radio" id="mc" name="question3" value="Goddess Lakshmi">Goddess Lakshmi <br/>
+            <input type="radio" id="mc" name="question3" value="Goddess Saraswati">Goddess Saraswati <br/>
+            <input type="radio" id="mc" name="question3" value="Temple">Temple <br/>
+            <input type="radio" id="mc" name="question3" value="Polite">Polite <br/>
+
+            <p>3. My sister is ____ years younger than me</p>
+            <input type="radio" id="mc" name="question4" value="4">4 <br/>
+            <input type="radio" id="mc" name="question4" value="5">5 <br/>
+            <input type="radio" id="mc" name="question4" value="6">6 <br/>
+            <input type="radio" id="mc" name="question4" value="8">8 <br/>
+
+            <p>4. Who was my first crush ever?</p>
+            <input type="radio" id="mc" name="question5" value="Mihir ">Mihir <br/>
+            <input type="radio" id="mc" name="question5" value="Yash">Yash <br/>
+            <input type="radio" id="mc" name="question5" value="Anay">Anay <br/>
+            <input type="radio" id="mc" name="question5" value="Sushbit">Sushbit <br/>
+
+            <p>5. Which is my favourite book of all times</p>
+            <input type="radio" id="mc" name="question6" value="Pride and Prejudice">Pride and Prejudice <br/>
+            <input type="radio" id="mc" name="question6" value="Anne Frank">Anne Frank <br/>
+            <input type="radio" id="mc" name="question6" value="My Policeman">My Policeman <br/>
+            <input type="radio" id="mc" name="question6" value="Humble Pi">Humble Pi <br/>
+
+            <p>6. Who was my first ever best friend?</p>
+            <input type="radio" id="mc" name="question7" value="Shruti">Shruti <br/>
+            <input type="radio" id="mc" name="question7" value="Ananya">Ananya <br/>
+            <input type="radio" id="mc" name="question7" value="Pranjal">Pranjal <br/>
+            <input type="radio" id="mc" name="question7" value="Shriya">Shriya <br/>
+
+            <p>7. My favourite singer is ____</p>
+            <input type="radio" id="mc" name="question8" value="Harry Styles">Harry Styles <br/>
+            <input type="radio" id="mc" name="question8" value="Olivia Rodrigo">Olivia Rodrigo <br/>
+            <input type="radio" id="mc" name="question8" value="Halsey">Halsey <br/>
+            <input type="radio" id="mc" name="question8" value="Taylor Swift">Taylor Swift <br/>
+
+            <p>8. What health condition do I have?</p>
+            <input type="radio" id="mc" name="question9" value="Asthama">Asthama <br/>
+            <input type="radio" id="mc" name="question9" value="Anemia">Anemia <br/>
+            <input type="radio" id="mc" name="question9" value="Diabetes">Diabetes <br/>
+            <input type="radio" id="mc" name="question9" value="Stomach Problems">Stomach Problems<br/>
+        
+            <input type="button" id="button" value="I'm done with your crap" onclick="check();" >
+        </form>
+
+        <div id="after_submit">
+            <p id="number_correct"></p>
+            <img id="picture">
+            <p id="message"></p>
+        </div>
+    </body>
+</html>
